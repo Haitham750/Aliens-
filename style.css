@@ -1,0 +1,245 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+/*---------bar-------*/
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  color: #afb7de;
+}
+.navbar-brand img
+{
+  height: 120px;
+  padding-left: 110px;
+}
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+.navbar-nav li a
+{
+  float: right;
+  text-align: left;
+}
+#nav-bar ul li a:hover
+{
+  color: #2d69ae!important;
+}
+.navbar
+{
+  background: #fff;
+}
+.navbar-toggler
+{
+  border: none!important;
+}
+.nav-link
+{
+  color: #555!important;
+  font-weight: 600;
+  font-size: 16px;
+}
+/*---------slider-------*/
+#slider
+{
+  width: 100%;
+}
+.carousel-caption
+{
+  top: 55%;
+  transform: translateY(-50%);
+  bottom: initia!important
+}
+.carousel-caption h5
+{
+  color: #fff;
+  font-size: 42px;
+  font-style: italic;
+}
+/*---------about-------*/
+#about
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+#about .btn
+{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.about-content
+{
+  padding-top: 20px;
+}
+.dettol
+{
+  position: relative;
+  top: 120px;
+  left: 80px;
+}
+section{
+  padding: 20px;
+}
+.post h2{
+  margin: 0 0 15px 0;
+  color: #000;
+  font-size: 28px;
+  font-weight: bold;
+  font-family:'poppins',sans-serif;
+  letter-spacing: 1.2px;
+}
+.more{
+  display: none;
+}
+.post{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+  padding-top: 20px;
+
+
+}
+.post:not(:last-child){
+  margin-bottom: 30px;
+
+}
+button{
+  margin-top: 15px;
+  display: block;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 20px;
+}
+/*---------our team-------*/
+#team
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(covid-19.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.members h1
+{
+  text-align: center;
+  color: #efefef !important;
+  padding-bottom: 10px;
+}
+.members h1 ::after
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+.profile-pic
+{
+  margin-top: 25px;
+}
+.profile-pic .img-box
+{
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+.profile-pic .img-box
+{
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+.profile-pic .img-box img
+{
+filter: grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+filter: grayscale(0);
+cursor: pointer;
+}
+.img-responsive
+{
+  height: 150px;
+  width: 140px;
+}
+.profile-pic h2
+{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #007bff !important;
+}
+.profile-pic h4
+{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+#team .fa
+{
+  height: 25px;
+  width: 25px;
+  color: #007bff !important;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.img-box ul
+{
+  padding:  15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.img-box ul li
+{
+  padding: 5px;
+  display: inline-block;
+}
+.img-box:hover ul
+{
+  opacity: 1;
+}
+.img-box ul, .img-box ul li
+{
+  transition: 0.5s;
+}
+/*--------Promo--------*/
+#promo
+{
+    color:#000;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 38px;
+}
+/*--------footer--------*/
+.page-footer
+{
+  background-color: #141414;
+  color: #fff;
+}
+.text-uppercase
+{
+  font-weight: bold;
+}
